@@ -42,9 +42,7 @@ header{
 	float: left;
 	margin-left: 75px;
 	width:140px;
-	text-align: center;
-	color: #888888;
-	font-size: 18px;
+	background-color: #fff;
 }
 .circleDraw{
 	border-radius: 50%;
@@ -52,22 +50,31 @@ header{
 	width: 140px;
 	height: 140px;
 }
-.parentCircle:hover{
+.circleTitle a{
+	color: #888888;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+.parentCircle a:hover{
 	color: #000;
 }
+
 footer{
 	background-color: #ECECEC;
-	width: 50px;
+	width: 940px;
+	margin-top: 110px;
+	float: left;
 }
 .footerClass{
-	height: 35px;
-	float: left;
-	width: 100%;
+	margin-left: 200px;
+	margin-right: 200px;
 }
 .footerClass a{
-	float:left;
-	padding: 20px;
 	color: #ff8000;
 	font-weight: bold;
 	font-size: 16px;
+}
+.footerClass a:hover{
+	color:#000;
 }
