@@ -5,6 +5,7 @@
 header{
 	background-color: #aaaaaa;
 	heigth:50px;
+	width: 100%;
 }
 .logo{
 	float: left;
@@ -65,10 +66,14 @@ footer{
 	width: 940px;
 	margin-top: 110px;
 	float: left;
+	width: 100%;
 }
 .footerClass{
-	margin-left: 220px;
-	margin-right: 220px;
+	text-align: center;
+	padding-right: 10px;
+}
+nav{
+	display: inline-block;
 }
 .footerClass a{
 	color: #ff8000;
