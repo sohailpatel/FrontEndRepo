@@ -39,6 +39,9 @@ header{
 	font-size: 36px;
 	text-align: center;
 }
+h1{
+	font-size: 36px;
+}
 .parentCircle{
 	float: left;
 	margin-left: 75px;
