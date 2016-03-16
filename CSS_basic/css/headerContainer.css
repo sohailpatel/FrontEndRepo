@@ -1,33 +1,54 @@
+body,ul,h1,p{
+	margin: 0;
+	padding: 0;
+}
 .parentContainer{
-	margin:0px auto;
+	margin:0 auto;
 	width: 940px;
+	height: auto;
 }
 header{
 	background-color: #aaaaaa;
-	heigth:50px;
+	height:50px;
 	width: 100%;
 }
+.clearDiv{
+	clear: both;
+}
 .logo{
-	float: left;
 	background-color:#ff8000;
 	width: 140px;
 	height: 35px;
-	margin-left: 15px;
-	margin-top: 12px;
+	margin: 7px auto 8px 15px;
+	float: left;
 }
-.parentContainer nav{
-	margin: 0 auto;
+.logo a{
+	display: inline-block;
+	width: 140px;
+	height: 35px;
 }
-.parentContainer a{
+.menuItem{
+	list-style-type: none;
 	float:left;
-	padding: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.menuItem li{
+	float:left;
+}
+.menuItem a{
+	padding: 10px;
 	color: #fff;
 	font-weight: bold;
+	text-decoration: none;
+	display: block;
 }
-.clearFloat{
+.clearFloat, .menuItem .clearFloat{
+	float: none;	
 	clear: both;
 }
 .banner{
+	margin-top: 0;
 	background-color: #71c4ea;
 	width: 100%;
 	height: 485px;
@@ -36,53 +57,72 @@ header{
 	margin-top: 64px;
 	margin-bottom:70px;
 	color: #444444;
-	font-size: 36px;
 	text-align: center;
 }
-h1{
+.work h1{
 	font-size: 36px;
+	margin-top: 64px;
+	margin-bottom: 70px;
 }
-.parentCircle{
+.work li{
+	list-style-type: none;
+}
+.circleTitle{
+	margin: 0 auto;
+}
+.circleList{
 	float: left;
-	margin-left: 75px;
-	width:140px;
+	margin:0 75px 110px auto;
 	background-color: #fff;
+	width: 140px;
 }
 .circleDraw{
+	display: block;
 	border-radius: 50%;
 	background-color: #efefef;
 	width: 140px;
 	height: 140px;
+	margin: 0 auto 10px;
 }
-.parentCircle a{
+.circleList a{
 	color: #888888;
 	font-size: 18px;
-	font-weight: bold;
 	text-align: center;
+	text-decoration: none;
+	display: block;
 }
-.parentCircle a:hover{
+.circleList a:hover{
 	color: #000;
 }
 
 footer{
 	background-color: #ECECEC;
-	width: 940px;
-	margin-top: 110px;
 	float: left;
 	width: 100%;
 }
-.footerClass{
-	text-align: center;
-	padding-right: 10px;
-}
-nav{
-	display: inline-block;
-}
-.footerClass a{
+
+.menuFooter a{
 	color: #ff8000;
 	font-weight: bold;
 	font-size: 16px;
+	text-decoration: none;
 }
-.footerClass a:hover{
+.menuFooter a:hover{
 	color:#000;
+}
+.menuFooter{
+	
+	width: 500px;
+	margin-left: 200px;
+}
+.menuFooter li{
+	list-style-type: none;
+	padding-right: 30px;
+	display: inline-block;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+.classFooter{
+	margin: 0 auto;
+	text-align: center;
 }
