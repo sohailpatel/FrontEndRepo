@@ -86,12 +86,17 @@
 	margin-bottom: 10px;
 }
 .footerMargin{
-	margin-left: 10px;
+	margin-left: 20px;
 }
 .classFooter{
 	margin-top: 80px;
 	margin-bottom: 50px;
 	border-top: 1px solid #909090;
-	list-style-type: none;
 	padding-top: 80px;
+}
+.styleType{
+	list-style-type: none;
+}
+.styleTypeSet{
+	list-style-type: disc;
 }
