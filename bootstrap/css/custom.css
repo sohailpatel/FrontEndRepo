@@ -1,101 +1,147 @@
+header{
+	padding: 23px 0;
+	margin: 0;
+	background-color: #f8f8f8;
+}
 .headerMenu{
-	background-color: #080808;
-	padding: 20px 0;
-	margin: 0 auto;
+	margin: 0;
 	border: none;
 	border-radius: 0;
 }
-.headerMenu .navbar-nav>li>a:hover {
-	color: #ffffff;
+.navbar-header a{
+	display: block;
 }
-.navbar-nav>li{
-	margin-left: 30px;
+.navbar-nav li{
+	margin-top: 28px;
 }
-.headerMenu .navbar-nav>li>a {
-	color: #9d9d9d;
-	padding: 15px 0;
-	background-color: #080808;
+.navbar-nav a{
+	padding: 0;
+	color: #1c3a50;
+	font-size: 18px;
 }
-.headerMenu .navbar-header a:hover {
-	color: #777;
-}
-.headerUL{
-	float: right;
-}
-.navbar-default .navbar-nav>.open>a:hover
-{
-    background-color:#080808;
+.headerMenu .navbar-nav>li>a:hover{
+	color: #02b8dc;
 }
 .banner{
-	background-color: #777777;
-	padding: 263px 0 70px 0;
-	margin-bottom: 60px;
+	height: 500px;
+	background-image: url("../img/bannerBg.png");
 }
-.bannerData{
-	margin: 0 auto;
-	width: 500px;
-}
-.bannerData h1{
-	margin:0;
-	color: #ffffff;
-	font-size: 18px;
-}
-.bannerData p{
+.bannerContains span{
 	font-size: 14px;
-	color: #ffffff;
-	margin-bottom: 25px;
-}
-.imageHeading .imageUL h2{
-	font-size: 18px;
-	color: #5a5a5a;
-}
-.imageHeading .imageUL p{
-	font-size: 14px;
-	color: #5a5a5a;
-}
-.imageHeading .imageUL li{
-	list-style-type: none;
-}
-.btnColor{
+	color: #6d6e71;
 	background-color: #fff;
-	border-color: #000;
-}
-.imageUL{
-	padding-bottom: 109px;
-	padding-left: 0;
-	border-bottom: 1px solid #909090;
-	margin-bottom: 80px;
-}
-.imageUL .imageWidth{
-	width: 140px;
-	height: 140px;
-	margin: 0 auto 25px;
-} 
-.imageUL h2{
-	margin:0;
-}
-.contactUs h4{
-	font-size: 20px;
-}
-.contactUs p{
-	margin-bottom: 30px;
-}
-.txtMargin{
-	margin-bottom: 10px;
-}
-.footerMargin{
-	margin-left: 20px;
-}
-.parentFooter{
-	margin: 80px 0 50px;
-	border-top: 1px solid #909090;
-	padding-top: 49px;
-	padding-left: 0;
-}
-.classFooter{
-	margin: 0;
+	border: none;
+	border-radius: 0;
 	padding: 0;
 }
-.classFooter li{
-	margin-left: 25px;
+.bannerContains{
+	padding-top: 97px;
+}
+.bannerForm{
+	padding: 40px 80px 20px 80px;
+	background-color: #fff;
+}
+.txtForm{
+	width: 150px;
+	margin-left: 35px;
+}
+.bannerForm .txtButton{
+	width: 140px;
+	height: 47px;
+	background-color: #ff4500;
+	border:none;
+}
+.txtFormHotel .form-group:first-child{
+	margin-left: 0;
+}
+.bannerHeading h1{
+	font-size: 32px;
+	color: #1f435e;
+	margin: 60px 0 0 0;
+}
+.reasonContainer{
+	background-color: #c7e7f9;
+}
+.textReason{
+	font-size: 36px;
+	color:  #1c3a50;
+	margin-bottom: 30px;
+}
+.imageList{
+	list-style-type: none;
+}
+.imageParaData{
+	margin-bottom: 15px;
+}
+.textDeals{
+	font-size: 36px;
+	margin:0 0 35px 0;
+}
+.dealsImg img{
+	width: 100%;
+}
+.dealsImg{
+	position: relative;
+}
+.reasonImgWidth{
+	width: 270px;
+	margin-left: 150px;
+}
+.imageList .reasonImgWidth:first-child{
+	margin-left: 0;
+}
+.dealsImg .dealsLabel{
+	font-size: 22px;
+	display: block;
+	margin-bottom: 40px;
+}
+.dealsImg .bahamasLabel{
+	display: block;
+	margin-bottom: 15px;
+}
+.dealsImg .vacationLabel{
+	font-size: 16px;
+	display: block;
+}
+.dealsImg .dollarLabel{
+	font-size: 22px;
+}
+.dealsImg .dollarDataLabel{
+	font-size: 30px;
+}
+.dealsBackground{
+	position: absolute;
+	width: 250px;
+	height: 220px;
+	top:20px;
+	left: 20px;
+	background: rgba(255,255,255,0.7);
+}
+.dealsContainer{
+	background-color: #fcfcfc;
+	padding-top: 40px;
+}
+.chartContainer{
+	background-color: #fff;
+}
+.txtCharts{
+	font-size: 22px;
+}
+.chartContainer .chartsRightSmall{
+	font-size: 22px;
+}
+.chartContainer .chartsRightBig{
+	font-size: 30px;
+	line-height: 32px;
+}
+.chartContainer .chartsLeft{
+	font-size:18px;
+	line-height: 30px;
+}
+.clearType{
+	list-style-type: none;
+}
+.chartsPadding{
+	padding:17px 0;
+	border-bottom: 1px solid #d0dce5;
 }

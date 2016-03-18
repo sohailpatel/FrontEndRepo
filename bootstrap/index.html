@@ -1,7 +1,8 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Bootstrap</title>
+	<title>Final Assingmnet</title>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="css/custom.css" rel="stylesheet">
@@ -12,87 +13,122 @@
 		  <div class="container">
     		<!-- Brand and toggle get grouped for better mobile display -->
     		<div class="navbar-header">
-     			 <a class="navbar-brand" href="#">Project Name</a>
+     			 <a href="#">
+     			 	<img alt="logo" src="img/logo.png">
+     			 </a>
   			</div>
     		<!-- Collect the nav links, forms, and other content for toggling -->
-    		<div class="collapse navbar-collapse headerUL" id="bs-example-navbar-collapse-1">
+    		<div class="pull-right menuList" id="bs-example-navbar-collapse-1">
     		  <ul class="nav navbar-nav">
-        		<li><a href="#">HOME</a></li>
-        		<li><a href="#">ABOUT</a></li>
-        		<li><a href="#">CONTACT</a></li>
-       			<li class="dropdown">
-        		  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          			<ul class="dropdown-menu">
-            			<li><a href="#">Action</a></li>
-            			<li><a href="#">Another action</a></li>
-            			<li><a href="#">Something else here</a></li>
-            			<li role="separator" class="divider"></li>
-            			<li><a href="#">Separated link</a></li>
-          			</ul>
-        		</li>
+        		<li><a href="#">FLIGHTS</a></li>
+        		<li><a href="#">HOTEL</a></li>
+        		<li><a href="#">VACCATIONS</a></li>
+        		<li><a href="#">DEALS</a></li>
+        		<li><a href="#">GROUP</a></li>
+        		<li><a href="#">DESTINATIONS</a></li>
       		  </ul>
     		</div><!-- /.navbar-collapse -->
   		  </div><!-- /.container-fluid -->
 		</nav>
 	</header>
-	<div class="banner">
-		<div class="bannerData text-center">
-			<h1>One more for good measure.</h1>
-			<p>Cras justo odio,dapibus ac facilisis in,edestas eget quam.Donec id elit non mi porta gravida at eget metus. Nollam id dolor id nibh ultricies vihicula ut id elit.</p>
-			 <button type="button" class="btn btn-primary center-block">Browse gallery</button>
+	<div class="banner">	
+		<div class="container bannerData">
+			<div class="row bannerContains">
+  				<div class="col-md-7 bannerForm">
+  					<form>
+  						<div class="form-group">
+  							<label>Location</label>
+							<input class="form-control txtLocation" placeholder="Enter Destination" type="text">
+						</div>
+						<div class="txtFormHotel clearfix">
+							<div class="form-group pull-left txtForm">
+								<label>Checkin</label>
+								<input class="form-control" placeholder="05/07/15" type="text">
+							</div>
+							<div class="form-group pull-left txtForm">
+								<label>Checkout</label>
+								<input class="form-control" placeholder="05/07/15" type="text">
+							</div>
+							<div class="form-group pull-left txtForm">
+								<label>Destination</label>
+								<input class="form-control" placeholder="1 Room,2 Guests" type="text">
+	  						</div>
+	  					</div>
+  						<button class="center-block txtButton">FIND</button>
+  					</form>
+  				</div>
+  				<div class="col-md-5 text-center bannerHeading">
+  					<h1>Aenean accumasan augue gravida accumasan tempus</h1>
+  				</div>
+  			</div>
 		</div>
 	</div>
-	<div class="container imageHeading">
-		<div class="row">
-			<ul class="clearfix imageUL">
-  				<li class="col-md-4 text-center">
-  					<div class="imageWidth"><img src="img/computer.jpg" alt="computer image"></div>
-  					<h2>Heading</h2>
-  					<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna magna commodo magna.</p>
-  					<button class="btn btnColor">View Details</button>
-  				</li>
-  				<li class="col-md-4 text-center">
-  					<div class="imageWidth"><img src="img/book.jpg" alt="book image"></div>
-  					<h2>Heading</h2>
-  					<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-  					<button class="btn btnColor">View Details</button>
-  				</li>
-  				<li class="col-md-4 text-center">
-  					<div class="imageWidth"><img src="img/rd.jpg" alt="RD image"></div>
-  					<h2>Heading</h2>
-  					<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fuscue dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-  					<button class="btn btnColor">View Details</button>
-  				</li>
-  			</ul>
-			<div class="col-md-5">
-				<img alt="city image" src="img/city.jpg">
-			</div>
-			<div class="col-md-7 contactUs">
-				<h4>Contact Us</h4>
-				<p>Get in touch and tell us know how we can help you</p>
-				<div class="form-group">
-					<input class="form-control txtMargin" placeholder="Your Name" type="text">
-				</div>
-				<div class="form-group">
-					<input class="form-control txtMargin" placeholder="Your Email" type="text">
-				</div>
-				<div class="form-group">
-					<textarea class="form-control txtMargin" placeholder="Here you can write your text" rows="8"></textarea>
-				</div>
-				<button class="btn btn-info pull-right">Send</button>
-			</div>
-		</div>
-		
-		<div class="footer parentFooter">
-				<span class="pull-left">&#169;2015 Comapany, Inc.</span>
-				<ul class="classFooter pull-left clearfix">
-					<li class="pull-left"><a href="#" >Privacy</a></li>
-					<li class="pull-left"><a href="#">Terms</a></li>
+	<div class="reasonContainer">
+		<div class="container">
+			<h2 class="text-center textReason">Reason to book with us</h2>
+			<div class="row">
+				<ul class="imageList clearfix text-center">
+					<li class="col-md-4 reasonImgWidth">
+	  					<div>
+	  						<img src="img/reason1.png" alt="Reason 1">
+	  					</div>
+	  					<p class="imageParaData">Suspendsse sit amet nuc a leo</p>
+	  					<a href="#">Lipsum Lorem&#62;</a>
+	  				</li>
+		  			<li class="col-md-4 reasonImgWidth">
+	  					<div>
+	  						<img src="img/reason2.png" alt="Reason 2">
+	  					</div>
+	  					<p class="imageParaData">Proin sollicitudin nisl tortor, quis venenatis arcu</p>
+			  			<a href="#">Lipsum Lorem&#62;</a>
+		  			</li>
+		  			<li class="col-md-4 reasonImgWidth">
+	  					<div>
+	  						<img src="img/reason3.png" alt="Reason 3">
+	  					</div>
+	  					<p class="imageParaData">Suspendsse sit amet nuc a leo</p>
+	  					<a href="#">Lipsum Lorem&#62;</a>
+		  			</li>
 				</ul>
-				<a href="#" class="pull-right">Back to top</a>
+			</div>
 		</div>
 	</div>
-	<script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+	<div class="dealsContainer">
+		<div class="container">
+			<h3 class="text-center textDeals">Deals</h3>
+			<div class="col-md-8 dealsImg">
+				<div>
+					<img src="img/bigImage.png" alt="BigImage">
+				</div>
+				<div class="dealsBackground text-center">
+					<span class="dealsLabel">Last Minute Deals</span>
+					<span class="bahamasLabel">Bahamas</span>
+					<span class="vacationLabel">Vacation from</span>
+					<span class="dollarLabel">c&#36;</span>
+					<span class="dollarDataLabel">198</span>
+				</div>
+			</div>
+			<div class="col-md-4 chartContainer">
+				<h4 class="txtCharts text-center">Charts</h4>
+				<ul class="clearType">
+					<li class="clearfix chartsPadding">
+						<span class="pull-left chartsLeft">Nassau Four Seasons</span>
+						<span class="pull-right chartsRightBig">480</span>
+						<span class="pull-right chartsRightSmall">c&#36;</span>
+					</li>	
+					<li class="clearfix chartsPadding">
+						<span class="pull-left chartsLeft">Jamaica Beach Club</span>
+						<span class="pull-right chartsRightBig">350</span>
+						<span class="pull-right chartsRightSmall">c&#36;</span>
+					</li>	
+					<li class="clearfix chartsPadding">
+						<span class="pull-left chartsLeft">Jamaica Beach Club</span>
+						<span class="pull-right chartsRightBig">350</span>
+						<span class="pull-right chartsRightSmall">c&#36;</span>
+					</li>	
+				</ul>	
+			</div>
+		</div>
+	</div>
 </body>
 </html>
