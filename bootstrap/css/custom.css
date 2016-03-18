@@ -14,12 +14,17 @@
 .headerMenu .navbar-nav>li>a {
 	color: #9d9d9d;
 	padding: 15px 0;
+	background-color: #080808;
 }
 .headerMenu .navbar-header a:hover {
 	color: #777;
 }
 .headerUL{
 	float: right;
+}
+.navbar-default .navbar-nav>.open>a:hover
+{
+    background-color:#080808;
 }
 .banner{
 	background-color: #777777;
@@ -32,36 +37,24 @@
 }
 .bannerData h1{
 	margin:0;
-	text-align: center;
 	color: #ffffff;
 	font-size: 18px;
 }
 .bannerData p{
 	font-size: 14px;
 	color: #ffffff;
-	text-align: center;
-	margin-bottom: 25px;
-}
-.imageHeading{
-	padding-left: 0px;
-	padding-right: 0px;
-}
-.imageHeading .imageUL img{
 	margin-bottom: 25px;
 }
 .imageHeading .imageUL h2{
 	font-size: 18px;
 	color: #5a5a5a;
-	text-align: center;
 }
 .imageHeading .imageUL p{
 	font-size: 14px;
 	color: #5a5a5a;
-	text-align: center;
 }
 .imageHeading .imageUL li{
 	list-style-type: none;
-
 }
 .btnColor{
 	background-color: #fff;
@@ -73,6 +66,11 @@
 	border-bottom: 1px solid #909090;
 	margin-bottom: 80px;
 }
+.imageUL .imageWidth{
+	width: 140px;
+	height: 140px;
+	margin: 0 auto 25px;
+} 
 .imageUL h2{
 	margin:0;
 }
@@ -88,15 +86,16 @@
 .footerMargin{
 	margin-left: 20px;
 }
-.classFooter{
-	margin-top: 80px;
-	margin-bottom: 50px;
+.parentFooter{
+	margin: 80px 0 50px;
 	border-top: 1px solid #909090;
-	padding-top: 80px;
+	padding-top: 49px;
+	padding-left: 0;
 }
-.styleType{
-	list-style-type: none;
+.classFooter{
+	margin: 0;
+	padding: 0;
 }
-.styleTypeSet{
-	list-style-type: disc;
+.classFooter li{
+	margin-left: 25px;
 }
