@@ -55,9 +55,9 @@ header{
 	margin-bottom: 64px;
 }
 .work{
-	margin: 64px 0 70px 0;
 	color: #444444;
 	text-align: center;
+	margin-bottom: 110px;
 }
 .work h1{
 	font-size: 36px;
@@ -71,7 +71,7 @@ header{
 }
 .circleList{
 	float: left;
-	margin:0 75px 110px auto;
+	margin-right:75px;
 	background-color: #fff;
 	width: 140px;
 }
