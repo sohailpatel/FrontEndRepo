@@ -36,6 +36,7 @@ header{
 }
 .bannerContains{
 	padding-top: 97px;
+	margin: 0px;
 }
 .bannerForm{
 	padding: 40px 80px 20px 80px;
@@ -43,7 +44,7 @@ header{
 }
 .txtForm{
 	width: 150px;
-	margin-left: 35px;
+	margin-left: 27px;
 }
 .bannerForm .txtButton{
 	width: 140px;
@@ -62,6 +63,9 @@ header{
 .reasonContainer{
 	background-color: #c7e7f9;
 }
+.reasonRow{
+	margin: 0 0 30px 0;
+}
 .textReason{
 	font-size: 36px;
 	color:  #1c3a50;
@@ -79,12 +83,14 @@ header{
 }
 .dealsImg img{
 	width: 100%;
+	height: 260px;
 }
 .dealsImg{
 	position: relative;
+	height: 260px;
 }
 .reasonImgWidth{
-	width: 270px;
+	width: 260px;
 	margin-left: 150px;
 }
 .imageList .reasonImgWidth:first-child{
@@ -121,6 +127,9 @@ header{
 	background-color: #fcfcfc;
 	padding-top: 40px;
 }
+.dealsContainerPadding{
+	padding-bottom: 35px;
+}
 .chartContainer{
 	background-color: #fff;
 }
@@ -129,19 +138,108 @@ header{
 }
 .chartContainer .chartsRightSmall{
 	font-size: 22px;
+	line-height: 18px;
 }
 .chartContainer .chartsRightBig{
 	font-size: 30px;
-	line-height: 32px;
+	line-height: 20px;
 }
 .chartContainer .chartsLeft{
 	font-size:18px;
-	line-height: 30px;
+	line-height: 18px;
 }
 .clearType{
 	list-style-type: none;
 }
 .chartsPadding{
-	padding:17px 0;
-	border-bottom: 1px solid #d0dce5;
+	padding:24px 0;
+	border-top: 1px solid #d0dce5;
+}
+.chartsList .chartsPadding:first-child{
+	border-top: none;
+}
+.txtDealsRow{
+	margin:0 0 30px 0;
+}
+.dealsImgList{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.dealsImgRow img{
+	width: 100%;
+	height: 250px;
+}
+.dealsImgRow{
+	position: relative;
+}
+.dealsImgRowHeading{
+	position: absolute;
+	margin: 0;
+	top:93px;
+	left: 122px;
+	padding:10px 30px;
+	background-color: rgba(255,255,255,0.7);
+}
+.dealsImgRowHeading h5{
+	font-size: 22px;
+}
+.offerContainer{
+	background-color: #02b8dc;
+}
+.offerData{
+	padding: 22px 0;
+}
+.offerTxtSmall{
+	font-size: 24px;
+	color: #fff;
+}
+.offerTxtBig{
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+}
+.offerButton{
+	margin-left: 10px;
+	width: 160px;
+	height: 42px;
+	font-size: 18px;
+	background-color: #02b8dc;
+	border-style: solid;
+	color: #fff;
+}
+.footerMargin{
+	height: 35px;
+	background-color: #fcfcfc;
+}
+.footerList ul{
+	list-style-type: none;
+	margin-top: 50px;
+	width: 32px;
+}
+.footerList a{
+	font-size: 16px;
+	color: #fff;
+}
+.footerCopyright{
+	font-size: 12px;
+	color: #8e9da8;
+}
+footer{
+	background-color: #1c3a50;
+}
+.footerList{
+	margin-left: 100px;
+}
+
+.footerRow{
+	margin: 50px 0 25px 0;
+}
+.footerRow ul{
+	padding: 0;
+	margin-bottom: 0;
+}
+.footerRow .footerList:first-child{
+	margin-left: 0;
+	width: 110px;
 }
