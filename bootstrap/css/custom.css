@@ -10,8 +10,7 @@ header{
 }
 .navbar-header a{
 	display: block;
-}
-.navbar-nav li{
+}.headerMenu ul{
 	margin-top: 28px;
 }
 .navbar-nav a{
@@ -132,9 +131,11 @@ header{
 }
 .chartContainer{
 	background-color: #fff;
+	padding: 13px 20px;
 }
 .txtCharts{
 	font-size: 22px;
+	margin: 0;
 }
 .chartContainer .chartsRightSmall{
 	font-size: 22px;
@@ -142,14 +143,16 @@ header{
 }
 .chartContainer .chartsRightBig{
 	font-size: 30px;
-	line-height: 20px;
+	line-height: 21px;
 }
 .chartContainer .chartsLeft{
 	font-size:18px;
 	line-height: 18px;
 }
-.clearType{
+.chartsList{
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 .chartsPadding{
 	padding:24px 0;
@@ -157,6 +160,9 @@ header{
 }
 .chartsList .chartsPadding:first-child{
 	border-top: none;
+}
+.chartsList .chartsPadding:last-child{
+	padding-bottom: 25px;
 }
 .txtDealsRow{
 	margin:0 0 30px 0;
@@ -183,6 +189,7 @@ header{
 }
 .dealsImgRowHeading h5{
 	font-size: 22px;
+	margin: 0;
 }
 .offerContainer{
 	background-color: #02b8dc;
