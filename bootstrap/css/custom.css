@@ -72,6 +72,7 @@ header{
 }
 .imageList{
 	list-style-type: none;
+	margin: 0;
 }
 .imageParaData{
 	margin-bottom: 15px;
@@ -98,7 +99,7 @@ header{
 .dealsImg .dealsLabel{
 	font-size: 22px;
 	display: block;
-	margin-bottom: 40px;
+	margin: 25px 0 40px 0;
 }
 .dealsImg .bahamasLabel{
 	display: block;
@@ -228,7 +229,7 @@ header{
 	font-size: 16px;
 	color: #fff;
 }
-.footerCopyright{
+.footerCopyrightData{
 	font-size: 12px;
 	color: #8e9da8;
 }
@@ -249,4 +250,10 @@ footer{
 .footerRow .footerList:first-child{
 	margin-left: 0;
 	width: 110px;
+}
+.footerCopyright{
+	margin: 0;
+}
+.footerCopyrighColumn{
+	padding: 0;
 }
