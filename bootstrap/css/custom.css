@@ -11,7 +11,7 @@ header{
 .navbar-header a{
 	display: block;
 }.headerMenu ul{
-	margin-top: 28px;
+	margin-top: 16px;
 }
 .navbar-nav a{
 	padding: 0;
@@ -24,6 +24,7 @@ header{
 .banner{
 	height: 500px;
 	background-image: url("../img/bannerBg.png");
+	background-size:cover;
 }
 .bannerContains span{
 	font-size: 14px;
@@ -61,18 +62,15 @@ header{
 }
 .reasonContainer{
 	background-color: #c7e7f9;
+	padding: 10px 0 30px 0;
 }
-.reasonRow{
-	margin: 0 0 30px 0;
-}
-.textReason{
+.reasonContainer h2{
 	font-size: 36px;
 	color:  #1c3a50;
-	margin-bottom: 30px;
+	margin: 0 0 30px 0;
 }
 .imageList{
 	list-style-type: none;
-	margin: 0;
 }
 .imageParaData{
 	margin-bottom: 15px;
@@ -93,10 +91,22 @@ header{
 	width: 260px;
 	margin-left: 150px;
 }
+.reasonImgWidth .reasonFirstImg{
+	width: 88px;
+	height: 53px;
+}
+.reasonImgWidth .reasonThirdImg{
+	width: 43px;
+	height: 67px;
+}
+.reasonImgWidth .reasonThirdImg{
+	width: 80px;
+	height: 66px;
+}
 .imageList .reasonImgWidth:first-child{
 	margin-left: 0;
 }
-.dealsImg .dealsLabel{
+.dealsImg h4{
 	font-size: 22px;
 	display: block;
 	margin: 25px 0 40px 0;
@@ -140,17 +150,19 @@ header{
 }
 .chartContainer .chartsRightSmall{
 	font-size: 22px;
-	line-height: 18px;
+	line-height: 24px;
 	color: #ef5129;
 }
 .chartContainer .chartsRightBig{
 	font-size: 30px;
-	line-height: 21px;
+	line-height: 64px;
 	color: #ef5129;
+	width: 51px;
 }
 .chartContainer .chartsLeft{
 	font-size:18px;
-	line-height: 18px;
+	line-height: 69px;
+	width: 180px;
 }
 .chartsList{
 	list-style-type: none;
@@ -158,15 +170,13 @@ header{
 	padding: 0;
 }
 .chartsPadding{
-	padding:24px 0;
 	border-top: 1px solid #d0dce5;
 }
 .chartsList .chartsPadding:first-child{
 	border-top: none;
+	padding-top: 1px;
 }
-.chartsList .chartsPadding:last-child{
-	padding-bottom: 25px;
-}
+
 .txtDealsRow{
 	margin:0 0 30px 0;
 }
@@ -184,21 +194,19 @@ header{
 }
 .dealsImgRowHeading{
 	position: absolute;
-	margin: 0;
-	top:93px;
-	left: 122px;
+	top:97px;
+	left: 119px;
 	padding:10px 30px;
 	background-color: rgba(255,255,255,0.7);
 }
-.dealsImgRowHeading h5{
+.dealsImgRowHeading a{
 	font-size: 22px;
 	margin: 0;
-}
-.offerContainer{
-	background-color: #02b8dc;
+	color: #000;
 }
 .offerData{
 	padding: 22px 0;
+	background-color: #02b8dc;
 }
 .offerTxtSmall{
 	font-size: 24px;
@@ -231,15 +239,17 @@ header{
 	font-size: 16px;
 	color: #fff;
 }
-.footerCopyrightData{
+.footerCopyright p{
 	font-size: 12px;
 	color: #8e9da8;
 }
 footer{
 	background-color: #1c3a50;
+	margin-top: 30px;
 }
 .footerList{
 	margin-left: 100px;
+	list-style-type: none;
 }
 
 .footerRow{
@@ -252,10 +262,4 @@ footer{
 .footerRow .footerList:first-child{
 	margin-left: 0;
 	width: 110px;
-}
-.footerCopyright{
-	margin: 0;
-}
-.footerCopyrighColumn{
-	padding: 0;
 }

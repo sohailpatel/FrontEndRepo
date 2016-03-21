@@ -18,7 +18,7 @@
      			 </a>
   			</div>
     		<!-- Collect the nav links, forms, and other content for toggling -->
-    		<div class="pull-right menuList" id="bs-example-navbar-collapse-1">
+    		<div class="pull-right menuList">
     		  <ul class="nav navbar-nav">
         		<li><a href="#">FLIGHTS</a></li>
         		<li><a href="#">HOTEL</a></li>
@@ -32,7 +32,7 @@
 		</nav>
 	</header>
 	<div class="banner">	
-		<div class="container bannerData">
+		<div class="container">
 			<div class="row bannerContains">
   				<div class="col-md-7 bannerForm">
   					<form>
@@ -65,32 +65,30 @@
 	</div>
 	<div class="reasonContainer">
 		<div class="container">
-			<h2 class="text-center textReason">Reason to book with us</h2>
-			<div class="row reasonRow">
-				<ul class="imageList clearfix text-center">
-					<li class="col-md-4 reasonImgWidth">
-	  					<div>
-	  						<img src="img/reason1.png" alt="Reason 1">
-	  					</div>
-	  					<p class="imageParaData">Suspendsse sit amet nuc a leo</p>
-	  					<a href="#">Lipsum Lorem&#62;</a>
-	  				</li>
-		  			<li class="col-md-4 reasonImgWidth">
-	  					<div>
-	  						<img src="img/reason2.png" alt="Reason 2">
-	  					</div>
-	  					<p class="imageParaData">Proin sollicitudin nisl tortor, quis venenatis arcu</p>
-			  			<a href="#">Lipsum Lorem&#62;</a>
-		  			</li>
-		  			<li class="col-md-4 reasonImgWidth">
-	  					<div>
-	  						<img src="img/reason3.png" alt="Reason 3">
-	  					</div>
-	  					<p class="imageParaData">Suspendsse sit amet nuc a leo</p>
-	  					<a href="#">Lipsum Lorem&#62;</a>
-		  			</li>
-				</ul>
-			</div>
+			<h2 class="text-center">Reason to book with us</h2>
+			<ul class="imageList clearfix text-center">
+				<li class="reasonImgWidth pull-left">
+						<div>
+							<img class="reasonFirstImg" src="img/reason1.png" alt="Reason 1">
+						</div>
+						<p class="imageParaData">Suspendsse sit amet nuc a leo</p>
+						<a href="#">Lipsum Lorem&#62;</a>
+					</li>
+	  			<li class="reasonImgWidth pull-left">
+						<div>
+							<img class="reasonSecondImg" src="img/reason2.png" alt="Reason 2">
+						</div>
+						<p class="imageParaData">Proin sollicitudin nisl tortor, quis venenatis arcu</p>
+		  			<a href="#">Lipsum Lorem&#62;</a>
+	  			</li>
+	  			<li class="reasonImgWidth pull-left">
+						<div>
+							<img class="reasonThirdImg" src="img/reason3.png" alt="Reason 3">
+						</div>
+						<p class="imageParaData">Suspendsse sit amet nuc a leo</p>
+						<a href="#">Lipsum Lorem&#62;</a>
+	  			</li>
+			</ul>
 		</div>
 	</div>
 	<div class="dealsContainer">
@@ -102,11 +100,13 @@
 						<img src="img/bigImage.png" alt="BigImage">
 					</div>
 					<div class="dealsBackground text-center">
-						<span class="dealsLabel">Last Minute Deals</span>
+						<h4>Last Minute Deals</h4>
 						<span class="bahamasLabel">Bahamas</span>
 						<span class="vacationLabel">Vacation from</span>
-						<span class="dollarLabel">c&#36;</span>
-						<span class="dollarDataLabel">198</span>
+						<div>
+							<span class="dollarLabel">c&#36;</span>
+							<span class="dollarDataLabel">198</span>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-4 chartContainer">
@@ -114,18 +114,24 @@
 					<ul class="chartsList">
 						<li class="clearfix chartsPadding">
 							<span class="pull-left chartsLeft">Nassau Four Seasons</span>
-							<span class="pull-right chartsRightBig">480</span>
-							<span class="pull-right chartsRightSmall">c&#36;</span>
+							<div class="pull-right">
+								<span class="chartsRightSmall">c&#36;</span>
+								<span class="chartsRightBig">480</span>
+							</div>
 						</li>	
 						<li class="clearfix chartsPadding">
 							<span class="pull-left chartsLeft">Jamaica Beach Club</span>
-							<span class="pull-right chartsRightBig">350</span>
-							<span class="pull-right chartsRightSmall">c&#36;</span>
+							<div class="pull-right">
+								<span class="chartsRightSmall">c&#36;</span>
+								<span class="chartsRightBig">350</span>
+							</div>
 						</li>	
 						<li class="clearfix chartsPadding">
 							<span class="pull-left chartsLeft">Jamaica Beach Club</span>
-							<span class="pull-right chartsRightBig">350</span>
-							<span class="pull-right chartsRightSmall">c&#36;</span>
+							<div class="pull-right">
+								<span class="chartsRightSmall">c&#36;</span>
+								<span class="chartsRightBig">350</span>
+							</div>
 						</li>	
 					</ul>	
 				</div>
@@ -135,34 +141,30 @@
 					<div>
 						<img src="img/image1.png" alt="Image1">
 					</div>
-					<div class="dealsImgRowHeading"><h5>Location</h5></div>
+					<div class="dealsImgRowHeading"><a href="#">Location</a></div>
 				</li>
 				<li class="col-md-4 dealsImgRow">
 					<div>
 						<img src="img/image2.png" alt="Image2">
 					</div>
-					<div class="dealsImgRowHeading"><h5>Flights</h5></div>
+					<div class="dealsImgRowHeading"><a href="#">Flights</a></div>
 				</li>
 				<li class="col-md-4 dealsImgRow">
 					<div>
 						<img src="img/image3.png" alt="Image3">
 					</div>
-					<div class="dealsImgRowHeading"><h5>Flights</h5></div>
+					<div class="dealsImgRowHeading"><a href="#">Flights</a></div>
 				</li>
 			</ul>
 		</div>
 	</div>
-	<div class="offerContainer">
-		<div class="offerData text-center">
-			<span class="offerTxtSmall">Join today and get</span>
+	<div class="offerData text-center">
+		<span class="offerTxtSmall">Join today and get
 			<span class="offerTxtBig"> &#36;25 </span>
-			<span class="offerTxtSmall">off on your first purchase</span>
-			<button class="offerButton">Join Now</button>
-		</div>
+		off on your first purchase</span>
+		<button class="offerButton">Join Now</button>
 	</div>
 	<footer>
-		<div class="footerMargin">
-		</div>
 		<div class="container footerContainer">
 			<div class="row footerRow">
 				<ul class="col-md-2 footerList">
@@ -181,10 +183,8 @@
 					<li><a href="#">About us</a></li>
 				</ul>
 			</div>
-			<div class="row footerCopyright">
-				<div class="col-md-4 footerCopyrighColumn">
-					<p class="footerCopyrightData">Copyright &#169; -2015 lastminuteclub.com. All rights reserved</p>
-				</div>
+			<div class="footerCopyright">
+				<p>Copyright &#169; -2015 lastminuteclub.com. All rights reserved</p>
 			</div>
 		</div>
 	</footer>
