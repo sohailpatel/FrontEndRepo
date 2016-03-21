@@ -71,6 +71,8 @@ header{
 }
 .imageList{
 	list-style-type: none;
+	padding: 0;
+	margin-bottom: 0;
 }
 .imageParaData{
 	margin-bottom: 15px;
@@ -88,7 +90,7 @@ header{
 	height: 260px;
 }
 .reasonImgWidth{
-	width: 260px;
+	width: 280px;
 	margin-left: 150px;
 }
 .reasonImgWidth .reasonFirstImg{
