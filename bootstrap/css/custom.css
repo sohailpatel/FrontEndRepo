@@ -141,10 +141,12 @@ header{
 .chartContainer .chartsRightSmall{
 	font-size: 22px;
 	line-height: 18px;
+	color: #ef5129;
 }
 .chartContainer .chartsRightBig{
 	font-size: 30px;
 	line-height: 21px;
+	color: #ef5129;
 }
 .chartContainer .chartsLeft{
 	font-size:18px;
